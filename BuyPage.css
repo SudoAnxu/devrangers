@@ -1,0 +1,30 @@
+.product-img {
+  width: 40vh;
+  margin: auto;
+  object-fit: contain;
+}
+
+@media only screen and (min-width: 960px) {
+  .custom-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* .custom-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+} */
+
+@media only screen and (max-width: 960px) {
+    .custom-flex {
+      display: flex;
+      justify-content: center ;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
